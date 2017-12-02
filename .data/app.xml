@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.00.00" ModuleVersion="09.11.00" ExportDate="2017-12-02T07:27:28.7219804+01:00">
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.00.00" ModuleVersion="09.11.00" ExportDate="2017-12-02T09:28:36.2854548+01:00">
   <Header>
     <App Guid="5471052e-286b-4e33-a14d-614c7d498708" />
     <Language Default="en-US" />
@@ -338,7 +338,7 @@
       <Value Key="RequiredDnnVersion" Value="07.02.00" Type="String" />
       <Value Key="RequiredVersion" Value="09.11.00" Type="String" />
       <Value Key="SupportsAjaxReload" Value="False" Type="Boolean" />
-      <Value Key="Version" Value="09.11.01" Type="String" />
+      <Value Key="Version" Value="09.11.02" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="App" AttributeSetStaticName="App-Settings" AttributeSetName="App-Settings" EntityGUID="743a53f6-c635-4ce0-8637-a8f403db1888" KeyNumber="768" />
     <Entity AssignmentObjectType="App" AttributeSetStaticName="App-Resources" AttributeSetName="App-Resources" EntityGUID="caf1cb30-24d4-476a-b496-28e97caa7e87" KeyNumber="768" />
@@ -683,7 +683,6 @@
     </Entity>
     <Entity AssignmentObjectType="Entity" AttributeSetStaticName="|Config ToSic.Eav.DataSources.OwnerFilter" AttributeSetName="|Config ToSic.Eav.DataSources.OwnerFilter" EntityGUID="b4b109f4-a796-4a24-b961-92a8490767b0" KeyGuid="51016450-9078-4d84-a101-93584fedb1aa">
       <Value Key="IdentityCode" Value="dnn:userid=[User:UserId]" Type="String" />
-      <Value Key="UserId" Value="[User:Username]" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="DataPipeline" AttributeSetName="DataPipeline" EntityGUID="2c441088-0a54-4f6a-a4be-f4744807487b">
       <Value Key="AllowEdit" Value="True" Type="Boolean" />
@@ -1641,58 +1640,6 @@
     <Entity AssignmentObjectType="Entity" AttributeSetStaticName="|Config ToSic.Eav.DataSources.ValueSort" AttributeSetName="|Config ToSic.Eav.DataSources.ValueSort" EntityGUID="ee058135-eaff-4132-a41c-46b05a812b3d" KeyGuid="a8fcc486-8e77-44fd-9060-93b51bf6ab56">
       <Value Key="Attributes" Value="Name" Type="String" />
       <Value Key="Directions" Value="asc" Type="String" />
-    </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="DataPipeline" AttributeSetName="DataPipeline" EntityGUID="878c500e-5c12-4c60-955c-70fe79b9cbca">
-      <Value Key="AllowEdit" Value="True" Type="Boolean" />
-      <Value Key="Description" Value="Demonstrates the Zones data-source which returns a list of all zones" Type="String" />
-      <Value Key="Name" Value="zAdvanced - Zones" Type="String" />
-      <Value Key="StreamsOut" Value="ListContent,Default" Type="String" />
-      <Value Key="StreamWiring" Value="97a08bd1-74e6-4bed-b170-e74b71a4f8df:Default&gt;Out:Default" Type="String" />
-      <Value Key="TestParameters" Value="[Module:ModuleID]=6878" Type="String" />
-    </Entity>
-    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="97a08bd1-74e6-4bed-b170-e74b71a4f8df" KeyGuid="878c500e-5c12-4c60-955c-70fe79b9cbca">
-      <Value Key="Description" Value="" Type="String" />
-      <Value Key="Name" Value="Zones" Type="String" />
-      <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.Zones, ToSic.Eav.DataSources" Type="String" />
-      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 300,&#xD;&#xA;  &quot;Left&quot;: 420&#xD;&#xA;}" Type="String" />
-    </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="DataPipeline" AttributeSetName="DataPipeline" EntityGUID="1979cfc5-3f32-4b2c-b75d-f68091d5aa34">
-      <Value Key="AllowEdit" Value="True" Type="Boolean" />
-      <Value Key="Description" Value="Lists apps of a specific zone" Type="String" />
-      <Value Key="Name" Value="zAdvanced - Apps" Type="String" />
-      <Value Key="StreamsOut" Value="ListContent,Default" Type="String" />
-      <Value Key="StreamWiring" Value="91daa889-04b2-40c1-aaae-4c3ac87efb21:Default&gt;Out:Default" Type="String" />
-      <Value Key="TestParameters" Value="[Module:ModuleID]=6878" Type="String" />
-    </Entity>
-    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="91daa889-04b2-40c1-aaae-4c3ac87efb21" KeyGuid="1979cfc5-3f32-4b2c-b75d-f68091d5aa34">
-      <Value Key="Description" Value="" Type="String" />
-      <Value Key="Name" Value="Apps" Type="String" />
-      <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.Apps, ToSic.Eav.DataSources" Type="String" />
-      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 206,&#xD;&#xA;  &quot;Left&quot;: 390&#xD;&#xA;}" Type="String" />
-    </Entity>
-    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="fabc849e-b426-42ea-8e1c-c04e69facd9b" AttributeSetName="|Config ToSic.Eav.DataSources.Apps" EntityGUID="2862ca83-d97f-4af7-a5b1-8292887c920a" KeyGuid="91daa889-04b2-40c1-aaae-4c3ac87efb21">
-      <Value Key="Notes" Value="" Type="String" />
-      <Value Key="Title" Value="" Type="String" />
-      <Value Key="ZoneId" Value="1" Type="String" />
-    </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="DataPipeline" AttributeSetName="DataPipeline" EntityGUID="c7bb9256-ed6b-4883-9e6c-d60277209e79">
-      <Value Key="AllowEdit" Value="True" Type="Boolean" />
-      <Value Key="Description" Value="shows the attribs of a content-type" Type="String" />
-      <Value Key="Name" Value="zAdvanced - Attributes of a ContentType" Type="String" />
-      <Value Key="StreamsOut" Value="ListContent,Default" Type="String" />
-      <Value Key="StreamWiring" Value="5fca9b7a-0c7a-4361-9944-4aca8a47965f:Default&gt;Out:Default" Type="String" />
-      <Value Key="TestParameters" Value="[Module:ModuleID]=6878" Type="String" />
-    </Entity>
-    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="5fca9b7a-0c7a-4361-9944-4aca8a47965f" KeyGuid="c7bb9256-ed6b-4883-9e6c-d60277209e79">
-      <Value Key="Description" Value="" Type="String" />
-      <Value Key="Name" Value="Attributes" Type="String" />
-      <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.Attributes, ToSic.Eav.DataSources" Type="String" />
-      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 360,&#xD;&#xA;  &quot;Left&quot;: 480&#xD;&#xA;}" Type="String" />
-    </Entity>
-    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="5461d34d-7dc6-4d38-9250-a0729cc8ead3" AttributeSetName="|Config ToSic.Eav.DataSources.Attributes" EntityGUID="95541b84-c931-4d1e-8015-a4d1c2ddee0e" KeyGuid="5fca9b7a-0c7a-4361-9944-4aca8a47965f">
-      <Value Key="ContentTypeName" Value="Company" Type="String" />
-      <Value Key="Notes" Value="" Type="String" />
-      <Value Key="Title" Value="" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="DataPipeline" AttributeSetName="DataPipeline" EntityGUID="16d6b894-754a-4060-bdcd-3e60209a2c98">
       <Value Key="AllowEdit" Value="True" Type="Boolean" />
