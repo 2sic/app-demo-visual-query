@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.00.00" ModuleVersion="09.11.00" ExportDate="2017-12-02T09:28:36.2854548+01:00">
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.00.00" ModuleVersion="09.11.01" ExportDate="2017-12-02T10:47:54.087789+01:00">
   <Header>
     <App Guid="5471052e-286b-4e33-a14d-614c7d498708" />
     <Language Default="en-US" />
@@ -338,7 +338,7 @@
       <Value Key="RequiredDnnVersion" Value="07.02.00" Type="String" />
       <Value Key="RequiredVersion" Value="09.11.00" Type="String" />
       <Value Key="SupportsAjaxReload" Value="False" Type="Boolean" />
-      <Value Key="Version" Value="09.11.02" Type="String" />
+      <Value Key="Version" Value="09.11.04" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="App" AttributeSetStaticName="App-Settings" AttributeSetName="App-Settings" EntityGUID="743a53f6-c635-4ce0-8637-a8f403db1888" KeyNumber="768" />
     <Entity AssignmentObjectType="App" AttributeSetStaticName="App-Resources" AttributeSetName="App-Resources" EntityGUID="caf1cb30-24d4-476a-b496-28e97caa7e87" KeyNumber="768" />
@@ -522,17 +522,7 @@
       <Value Key="Description" Value="" Type="String" />
       <Value Key="Name" Value="DNN Portals" Type="String" />
       <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.SqlDataSource, ToSic.Eav.DataSources" Type="String" />
-      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 188,&#xD;&#xA;  &quot;Left&quot;: 448&#xD;&#xA;}" Type="String" />
-    </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="c76901b5-0345-4866-9fa3-6208de7f8543" AttributeSetName="|Config ToSic.Eav.DataSources.SqlDataSource" EntityGUID="35213ab5-045c-4455-a6be-ad7789a46529">
-      <Value Key="ConnectionString" Value="" Type="String" />
-      <Value Key="ConnectionStringName" Value="SiteSqlServer" Type="String" />
-      <Value Key="ContentType" Value="SqlData" Type="String" />
-      <Value Key="EntityIdField" Value="" Type="String" />
-      <Value Key="EntityTitleField" Value="" Type="String" />
-      <Value Key="Notes" Value="This gets all the portals from DNN which are still active" Type="String" />
-      <Value Key="SelectCommand" Value="SELECT TOP (1000) PortalId as EntityId, HomeDirectory as EntityTitle&#xA;      ,[PortalID]&#xA;      ,[ExpiryDate]&#xA;      ,[AdministratorRoleId]&#xA;      ,[GUID]&#xA;      ,[HomeDirectory]&#xA;      ,[CreatedOnDate]&#xA;      ,[PortalGroupID]&#xA;  FROM [Portals]&#xA;  Where ExpiryDate is null" Type="String" />
-      <Value Key="Title" Value="Sql Query" Type="String" />
+      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 133,&#xD;&#xA;  &quot;Left&quot;: 200&#xD;&#xA;}" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="ContentType" AttributeSetStaticName="ContentType" AttributeSetName="ContentType" EntityGUID="df363c68-437d-466c-ba8e-b689d9a261cb" KeyString="8a2c7dc1-fee6-4f91-997a-6bcefe9195db">
       <Value Key="Description" Value="Demo for entity as sql-parameter. This is just to show a simple use case where an entity is used to provide parameters to SQL" Type="String" />
@@ -839,9 +829,6 @@
     <Entity AssignmentObjectType="Entity" AttributeSetStaticName="|Config ToSic.Eav.DataSources.EntityTypeFilter" AttributeSetName="|Config ToSic.Eav.DataSources.EntityTypeFilter" EntityGUID="2f943b4a-7054-4cce-abfa-c14c3e5c18fe" KeyGuid="d61fb1ab-d546-4100-873b-89f5f7fc0325">
       <Value Key="TypeName" Value="Company" Type="String" />
     </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="38e7822b-1049-4539-bb3f-f99949b1b1d1" AttributeSetName="|Config ToSic.Eav.DataSources.Shuffle" EntityGUID="d2ab696b-5eb1-475f-b90f-a885bd952d14">
-      <Value Key="Take" Value="4" Type="String" />
-    </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="DataPipeline" AttributeSetName="DataPipeline" EntityGUID="a0d87c00-06a5-4732-8440-f414cef82f2e">
       <Value Key="AllowEdit" Value="True" Type="Boolean" />
       <Value Key="Description" Value="" Type="String" />
@@ -1147,18 +1134,6 @@
     <Entity AssignmentObjectType="Entity" AttributeSetStaticName="|Config ToSic.Eav.DataSources.EntityTypeFilter" AttributeSetName="|Config ToSic.Eav.DataSources.EntityTypeFilter" EntityGUID="aed6e153-b0d9-422f-8fe8-7957851b1f91" KeyGuid="47aa6e31-2e10-42cd-802d-076329ca7364">
       <Value Key="TypeName" Value="Company" Type="String" />
     </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="38e7822b-1049-4539-bb3f-f99949b1b1d1" AttributeSetName="|Config ToSic.Eav.DataSources.Shuffle" EntityGUID="f62830de-0b3e-4e25-bd0d-b6d31e1570d1">
-      <Value Key="Take" Value="2" Type="String" />
-    </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="38e7822b-1049-4539-bb3f-f99949b1b1d1" AttributeSetName="|Config ToSic.Eav.DataSources.Shuffle" EntityGUID="6222c897-6e86-489b-8eaa-9c6da3968786">
-      <Value Key="Take" Value="3" Type="String" />
-    </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="38e7822b-1049-4539-bb3f-f99949b1b1d1" AttributeSetName="|Config ToSic.Eav.DataSources.Shuffle" EntityGUID="2535751f-0845-4151-8eb1-c48c32719d19">
-      <Value Key="Take" Value="4" Type="String" />
-    </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="38e7822b-1049-4539-bb3f-f99949b1b1d1" AttributeSetName="|Config ToSic.Eav.DataSources.Shuffle" EntityGUID="b827fd57-61a5-4958-85c4-bec47ed14860">
-      <Value Key="Take" Value="4" Type="String" />
-    </Entity>
     <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="5d0b438b-0944-4ad2-b3e2-d9df4ab50db8" KeyGuid="f62fe622-5d17-418e-9f23-c29b77b7916f">
       <Value Key="Description" Value="" Type="String" />
       <Value Key="Name" Value="Shuffle" Type="String" />
@@ -1167,16 +1142,6 @@
     </Entity>
     <Entity AssignmentObjectType="Entity" AttributeSetStaticName="38e7822b-1049-4539-bb3f-f99949b1b1d1" AttributeSetName="|Config ToSic.Eav.DataSources.Shuffle" EntityGUID="9c22f51c-fcc0-42c8-abab-8402dfe1f29a" KeyGuid="5d0b438b-0944-4ad2-b3e2-d9df4ab50db8">
       <Value Key="Take" Value="2" Type="String" />
-    </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="c76901b5-0345-4866-9fa3-6208de7f8543" AttributeSetName="|Config ToSic.Eav.DataSources.SqlDataSource" EntityGUID="aa93c8d4-7ef0-4eb3-be6b-a2110c7eaaaa">
-      <Value Key="ConnectionString" Value="" Type="String" />
-      <Value Key="ConnectionStringName" Value="SiteSqlServer" Type="String" />
-      <Value Key="ContentType" Value="SqlData" Type="String" />
-      <Value Key="EntityIdField" Value="" Type="String" />
-      <Value Key="EntityTitleField" Value="" Type="String" />
-      <Value Key="Notes" Value="This gets all the portals from DNN which are still active" Type="String" />
-      <Value Key="SelectCommand" Value="SELECT TOP (1000) PortalId as EntityId, HomeDirectory as EntityTitle&#xA;      ,[PortalID]&#xA;      ,[ExpiryDate]&#xA;      ,[AdministratorRoleId]&#xA;      ,[GUID]&#xA;      ,[HomeDirectory]&#xA;      ,[CreatedOnDate]&#xA;      ,[PortalGroupID]&#xA;  FROM [Portals]&#xA;  Where ExpiryDate is null" Type="String" />
-      <Value Key="Title" Value="Sql Query" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="DataPipeline" AttributeSetName="DataPipeline" EntityGUID="7c3071d6-fdbc-4cc2-882f-a7e826fe83f4">
       <Value Key="AllowEdit" Value="True" Type="Boolean" />
@@ -1699,6 +1664,16 @@
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="8e1b8074-7d5b-4683-828c-898d9e2b39ab" AttributeSetName="PickSomePortals" EntityGUID="c27ff3d5-ca02-4fd6-b8f0-4f0da20504a2">
       <Value Key="PortalId" Value="2,3" Type="String" />
       <Value Key="Title" Value="demo" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="c76901b5-0345-4866-9fa3-6208de7f8543" AttributeSetName="|Config ToSic.Eav.DataSources.SqlDataSource" EntityGUID="165ab99e-9c7b-4b19-bce2-9dd8911a3b8c" KeyGuid="af0eb341-42a4-483b-8bda-98f98f9015fd">
+      <Value Key="ConnectionString" Value="" Type="String" />
+      <Value Key="ConnectionStringName" Value="SiteSqlServer" Type="String" />
+      <Value Key="ContentType" Value="SqlData" Type="String" />
+      <Value Key="EntityIdField" Value="" Type="String" />
+      <Value Key="EntityTitleField" Value="" Type="String" />
+      <Value Key="Notes" Value="This is exactly the original query..." Type="String" />
+      <Value Key="SelectCommand" Value="SELECT TOP (1000) PortalId as EntityId, HomeDirectory as EntityTitle&#xD;&#xA;      ,[PortalID]&#xD;&#xA;      ,[ExpiryDate]&#xD;&#xA;      ,[AdministratorRoleId]&#xD;&#xA;      ,[GUID]&#xD;&#xA;      ,[DefaultLanguage]&#xD;&#xA;      ,[HomeDirectory]&#xD;&#xA;      ,[CreatedOnDate]&#xD;&#xA;      ,[PortalGroupID]&#xD;&#xA;  FROM [Portals]&#xD;&#xA;  Where ExpiryDate is null" Type="String" />
+      <Value Key="Title" Value="This gets all the portals from DNN which are still active" Type="String" />
     </Entity>
   </Entities>
   <PortalFiles />
