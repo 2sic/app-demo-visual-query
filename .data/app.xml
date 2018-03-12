@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.00.00" ModuleVersion="09.11.01" ExportDate="2017-12-02T10:51:27.0287502+01:00">
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.00.00" ModuleVersion="09.15.00" ExportDate="2018-03-12T15:03:31.9510765+01:00">
   <Header>
     <App Guid="5471052e-286b-4e33-a14d-614c7d498708" />
     <Language Default="en-US" />
@@ -491,24 +491,6 @@
     </Entity>
     <Entity AssignmentObjectType="Entity" AttributeSetStaticName="|Config ToSic.Eav.DataSources.AttributeFilter" AttributeSetName="|Config ToSic.Eav.DataSources.AttributeFilter" EntityGUID="26ebef49-bb26-40f5-a66b-56b92a350e6b" KeyGuid="229034a1-50c0-4dc8-a897-54ffd3e652d7">
       <Value Key="AttributeNames" Value="Name,Country" Type="String" />
-    </Entity>
-    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="ca270a42-662b-483e-b9e9-73c26acd29d8" KeyGuid="0fec2d5f-84fa-47f0-983f-fbfe0c1fac4e">
-      <Value Key="Description" Value="" Type="String" />
-      <Value Key="Name" Value="App" Type="String" />
-      <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.App, ToSic.Eav.DataSources" Type="String" />
-      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 480,&#xD;&#xA;  &quot;Left&quot;: 112&#xD;&#xA;}" Type="String" />
-    </Entity>
-    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="435a55bb-2761-4e8e-91af-6be8744dbbad" KeyGuid="0fec2d5f-84fa-47f0-983f-fbfe0c1fac4e">
-      <Value Key="Description" Value="" Type="String" />
-      <Value Key="Name" Value="App" Type="String" />
-      <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.App, ToSic.Eav.DataSources" Type="String" />
-      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 274,&#xD;&#xA;  &quot;Left&quot;: 80&#xD;&#xA;}" Type="String" />
-    </Entity>
-    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="d441bf6d-e881-41d4-bd63-63793a65366e" KeyGuid="0fec2d5f-84fa-47f0-983f-fbfe0c1fac4e">
-      <Value Key="Description" Value="" Type="String" />
-      <Value Key="Name" Value="AttributeFilter" Type="String" />
-      <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.AttributeFilter, ToSic.Eav.DataSources" Type="String" />
-      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 100,&#xD;&#xA;  &quot;Left&quot;: 100&#xD;&#xA;}" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="DataPipeline" AttributeSetName="DataPipeline" EntityGUID="c5aab8c3-59ab-4327-85a3-0517a2581113">
       <Value Key="AllowEdit" Value="True" Type="Boolean" />
