@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.00.00" ModuleVersion="09.15.00" ExportDate="2018-03-12T15:03:31.9510765+01:00">
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.00.00" ModuleVersion="10.25.03" ExportDate="2020-02-11T16:26:14.0319459+01:00">
   <Header>
     <App Guid="5471052e-286b-4e33-a14d-614c7d498708" />
     <Language Default="en-US" />
@@ -37,11 +37,6 @@
             <Value Key="DropdownValues" Value="" Type="String" />
             <Value Key="InputType" Value="" Type="String" />
             <Value Key="RowCount" Value="1" Type="Number" />
-            <Value Key="ValidationAutomatic" Value="" Type="String" />
-            <Value Key="ValidationRegEx" Value="" Type="String" />
-            <Value Key="ValidationRegExJavaScript" Value="" Type="String" />
-            <Value Key="WysiwygHeight" Value="" Type="Number" />
-            <Value Key="WysiwygWidth" Value="" Type="Number" />
           </Entity>
           <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@string-dropdown" AttributeSetName="@string-dropdown" EntityGUID="4bb9ae8e-89b5-42a5-b505-eaa1316c709e" KeyNumber="10989">
             <Value Key="DropdownValues" Value="Fun&#xA;Work" Type="String" />
@@ -110,11 +105,6 @@
             <Value Key="DropdownValues" Value="" Type="String" />
             <Value Key="InputType" Value="" Type="String" />
             <Value Key="RowCount" Value="1" Type="Number" />
-            <Value Key="ValidationAutomatic" Value="" Type="String" />
-            <Value Key="ValidationRegEx" Value="" Type="String" />
-            <Value Key="ValidationRegExJavaScript" Value="" Type="String" />
-            <Value Key="WysiwygHeight" Value="" Type="Number" />
-            <Value Key="WysiwygWidth" Value="" Type="Number" />
           </Entity>
           <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@string-dropdown" AttributeSetName="@string-dropdown" EntityGUID="a0998168-6bb7-4428-b56e-8e911dcf6b11" KeyNumber="10357">
             <Value Key="DropdownValues" Value="Accounting&#xA;IT&#xA;Real-Estate&#xA;Web" Type="String" />
@@ -147,11 +137,6 @@
             <Value Key="DropdownValues" Value="" Type="String" />
             <Value Key="InputType" Value="" Type="String" />
             <Value Key="RowCount" Value="1" Type="Number" />
-            <Value Key="ValidationAutomatic" Value="" Type="String" />
-            <Value Key="ValidationRegEx" Value="" Type="String" />
-            <Value Key="ValidationRegExJavaScript" Value="" Type="String" />
-            <Value Key="WysiwygHeight" Value="" Type="Number" />
-            <Value Key="WysiwygWidth" Value="" Type="Number" />
           </Entity>
           <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@string-default" AttributeSetName="@string-default" EntityGUID="b4ebe42d-564b-4796-969e-eb47ae6e225b" KeyNumber="11305">
             <Value Key="RowCount" Value="" Type="Number" />
@@ -211,11 +196,6 @@
             <Value Key="DropdownValues" Value="" Type="String" />
             <Value Key="InputType" Value="" Type="String" />
             <Value Key="RowCount" Value="1" Type="Number" />
-            <Value Key="ValidationAutomatic" Value="" Type="String" />
-            <Value Key="ValidationRegEx" Value="" Type="String" />
-            <Value Key="ValidationRegExJavaScript" Value="" Type="String" />
-            <Value Key="WysiwygHeight" Value="" Type="Number" />
-            <Value Key="WysiwygWidth" Value="" Type="Number" />
           </Entity>
           <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@string-dropdown-query" AttributeSetName="@string-dropdown-query" EntityGUID="c0348999-3f58-4d50-bf91-9c269bc67e4d" KeyNumber="11308">
             <Value Key="AllowMultiValue" Value="True" Type="Boolean" />
@@ -276,11 +256,6 @@
             <Value Key="DropdownValues" Value="" Type="String" />
             <Value Key="InputType" Value="" Type="String" />
             <Value Key="RowCount" Value="1" Type="Number" />
-            <Value Key="ValidationAutomatic" Value="" Type="String" />
-            <Value Key="ValidationRegEx" Value="" Type="String" />
-            <Value Key="ValidationRegExJavaScript" Value="" Type="String" />
-            <Value Key="WysiwygHeight" Value="" Type="Number" />
-            <Value Key="WysiwygWidth" Value="" Type="Number" />
           </Entity>
           <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@string-dropdown" AttributeSetName="@string-dropdown" EntityGUID="fc71f2e9-a8d3-49f6-a28c-85c56d149b93" KeyNumber="10360">
             <Value Key="DropdownValues" Value="asc&#xA;desc" Type="String" />
@@ -313,11 +288,6 @@
             <Value Key="DropdownValues" Value="" Type="String" />
             <Value Key="InputType" Value="" Type="String" />
             <Value Key="RowCount" Value="1" Type="Number" />
-            <Value Key="ValidationAutomatic" Value="" Type="String" />
-            <Value Key="ValidationRegEx" Value="" Type="String" />
-            <Value Key="ValidationRegExJavaScript" Value="" Type="String" />
-            <Value Key="WysiwygHeight" Value="" Type="Number" />
-            <Value Key="WysiwygWidth" Value="" Type="Number" />
           </Entity>
           <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@string-default" AttributeSetName="@string-default" EntityGUID="874bb60a-3fc4-4b6f-af54-04d46f4cae6a" KeyNumber="10306">
             <Value Key="RowCount" Value="" Type="Number" />
@@ -336,9 +306,9 @@
       <Value Key="Hidden" Value="False" Type="Boolean" />
       <Value Key="OriginalId" Value="5471052e-286b-4e33-a14d-614c7d498708" Type="String" />
       <Value Key="RequiredDnnVersion" Value="07.02.00" Type="String" />
-      <Value Key="RequiredVersion" Value="09.11.00" Type="String" />
+      <Value Key="RequiredVersion" Value="10.25.03" Type="String" />
       <Value Key="SupportsAjaxReload" Value="False" Type="Boolean" />
-      <Value Key="Version" Value="09.11.05" Type="String" />
+      <Value Key="Version" Value="10.25.03" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="App" AttributeSetStaticName="App-Settings" AttributeSetName="App-Settings" EntityGUID="743a53f6-c635-4ce0-8637-a8f403db1888" KeyNumber="768" />
     <Entity AssignmentObjectType="App" AttributeSetStaticName="App-Resources" AttributeSetName="App-Resources" EntityGUID="caf1cb30-24d4-476a-b496-28e97caa7e87" KeyNumber="768" />
@@ -458,9 +428,10 @@
       <Value Key="AllowEdit" Value="True" Type="Boolean" />
       <Value Key="Description" Value="Demonstrates how to use the AttributeFilter" Type="String" />
       <Value Key="Name" Value="AttributeFilter" Type="String" />
+      <Value Key="Params" Value="" Type="String" />
       <Value Key="StreamsOut" Value="ListContent,Default,Cleaned" Type="String" />
       <Value Key="StreamWiring" Value="b4214762-e766-4225-9a46-96c49395a093:Default&gt;afac8d56-70b9-4775-ac34-3a45a0426efe:Default&#xD;&#xA;b4214762-e766-4225-9a46-96c49395a093:Drafts&gt;afac8d56-70b9-4775-ac34-3a45a0426efe:Drafts&#xD;&#xA;b4214762-e766-4225-9a46-96c49395a093:Published&gt;afac8d56-70b9-4775-ac34-3a45a0426efe:Published&#xD;&#xA;afac8d56-70b9-4775-ac34-3a45a0426efe:Default&gt;8b7e034f-4b24-48b7-a98a-b3554850adfa:Default&#xD;&#xA;8b7e034f-4b24-48b7-a98a-b3554850adfa:Default&gt;Out:Default&#xD;&#xA;8b7e034f-4b24-48b7-a98a-b3554850adfa:Default&gt;229034a1-50c0-4dc8-a897-54ffd3e652d7:Default&#xD;&#xA;229034a1-50c0-4dc8-a897-54ffd3e652d7:Default&gt;Out:Cleaned" Type="String" />
-      <Value Key="TestParameters" Value="[Module:ModuleID]=6878" Type="String" />
+      <Value Key="TestParameters" Value="" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="b4214762-e766-4225-9a46-96c49395a093" KeyGuid="0fec2d5f-84fa-47f0-983f-fbfe0c1fac4e">
       <Value Key="Description" Value="" Type="String" />
@@ -602,7 +573,7 @@
       <Value Key="Description" Value="" Type="String" />
       <Value Key="Name" Value="DnnSqlDataSource" Type="String" />
       <Value Key="PartAssemblyAndType" Value="ToSic.SexyContent.Environment.Dnn7.DataSources.DnnSqlDataSource, ToSic.SexyContent" Type="String" />
-      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 180,&#xD;&#xA;  &quot;Left&quot;: 429&#xD;&#xA;}" Type="String" />
+      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 220,&#xD;&#xA;  &quot;Left&quot;: 460&#xD;&#xA;}" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="13297082-e16d-48f9-8cc4-a9e7978d32dd" AttributeSetName="Company" EntityGUID="2b8c476a-6890-406d-aa73-a2d4ed92decf">
       <Value Key="Categories" Value="8110f990-be8d-498f-8195-54f16fef082e" Type="Entity" />
@@ -1568,9 +1539,10 @@
       <Value Key="AllowEdit" Value="True" Type="Boolean" />
       <Value Key="Description" Value="" Type="String" />
       <Value Key="Name" Value="AllQueries" Type="String" />
+      <Value Key="Params" Value="" Type="String" />
       <Value Key="StreamsOut" Value="ListContent,Default" Type="String" />
       <Value Key="StreamWiring" Value="075763c1-165c-4154-a443-401027373748:DataPipeline&gt;a8fcc486-8e77-44fd-9060-93b51bf6ab56:Default&#xD;&#xA;a8fcc486-8e77-44fd-9060-93b51bf6ab56:Default&gt;Out:Default" Type="String" />
-      <Value Key="TestParameters" Value="[Module:ModuleID]=6878" Type="String" />
+      <Value Key="TestParameters" Value="" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="075763c1-165c-4154-a443-401027373748" KeyGuid="8daddcbd-9a80-4e3a-9823-7f902f250f3c">
       <Value Key="Description" Value="" Type="String" />
@@ -1656,6 +1628,42 @@
       <Value Key="Notes" Value="This is exactly the original query..." Type="String" />
       <Value Key="SelectCommand" Value="SELECT TOP (1000) PortalId as EntityId, HomeDirectory as EntityTitle&#xD;&#xA;      ,[PortalID]&#xD;&#xA;      ,[ExpiryDate]&#xD;&#xA;      ,[AdministratorRoleId]&#xD;&#xA;      ,[GUID]&#xD;&#xA;      ,[DefaultLanguage]&#xD;&#xA;      ,[HomeDirectory]&#xD;&#xA;      ,[CreatedOnDate]&#xD;&#xA;      ,[PortalGroupID]&#xD;&#xA;  FROM [Portals]&#xD;&#xA;  Where ExpiryDate is null" Type="String" />
       <Value Key="Title" Value="This gets all the portals from DNN which are still active" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="DataPipeline" AttributeSetName="DataPipeline" EntityGUID="07e837da-6a90-421b-8a93-182488a0ac39">
+      <Value Key="AllowEdit" Value="True" Type="Boolean" />
+      <Value Key="Description" Value="" Type="String" />
+      <Value Key="Name" Value="StreamPick" Type="String" />
+      <Value Key="Params" Value="StreamName=Default" Type="String" />
+      <Value Key="StreamsOut" Value="ListContent,Default" Type="String" />
+      <Value Key="StreamWiring" Value="53e8a67e-6121-4789-8459-aa16534e7a59:Default&gt;7385c885-d194-4cc6-ae09-568fd0129e30:Default&#xD;&#xA;53e8a67e-6121-4789-8459-aa16534e7a59:Drafts&gt;7385c885-d194-4cc6-ae09-568fd0129e30:Drafts&#xD;&#xA;53e8a67e-6121-4789-8459-aa16534e7a59:Published&gt;7385c885-d194-4cc6-ae09-568fd0129e30:Published&#xD;&#xA;7385c885-d194-4cc6-ae09-568fd0129e30:Default&gt;b6426a1d-656a-4481-9b04-9058893e896c:Default&#xD;&#xA;b6426a1d-656a-4481-9b04-9058893e896c:Default&gt;0330b4c2-373f-4041-b9b3-fed1c55a194c:Default&#xD;&#xA;b6426a1d-656a-4481-9b04-9058893e896c:Company&gt;0330b4c2-373f-4041-b9b3-fed1c55a194c:Company&#xD;&#xA;0330b4c2-373f-4041-b9b3-fed1c55a194c:Default&gt;Out:Default&#xD;&#xA;b6426a1d-656a-4481-9b04-9058893e896c:Category&gt;0330b4c2-373f-4041-b9b3-fed1c55a194c:Category" Type="String" />
+      <Value Key="TestParameters" Value="[Params:StreamName]=Category" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="53e8a67e-6121-4789-8459-aa16534e7a59" KeyGuid="07e837da-6a90-421b-8a93-182488a0ac39">
+      <Value Key="Description" Value="" Type="String" />
+      <Value Key="Name" Value="ICache" Type="String" />
+      <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.IAppRoot, ToSic.Eav.DataSources" Type="String" />
+      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 554,&#xD;&#xA;  &quot;Left&quot;: 440&#xD;&#xA;}" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="7385c885-d194-4cc6-ae09-568fd0129e30" KeyGuid="07e837da-6a90-421b-8a93-182488a0ac39">
+      <Value Key="Description" Value="" Type="String" />
+      <Value Key="Name" Value="PublishingFilter" Type="String" />
+      <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.PublishingFilter, ToSic.Eav.DataSources" Type="String" />
+      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 414,&#xD;&#xA;  &quot;Left&quot;: 440&#xD;&#xA;}" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="b6426a1d-656a-4481-9b04-9058893e896c" KeyGuid="07e837da-6a90-421b-8a93-182488a0ac39">
+      <Value Key="Description" Value="" Type="String" />
+      <Value Key="Name" Value="App" Type="String" />
+      <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.App, ToSic.Eav.DataSources" Type="String" />
+      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 288,&#xD;&#xA;  &quot;Left&quot;: 433&#xD;&#xA;}" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="0330b4c2-373f-4041-b9b3-fed1c55a194c" KeyGuid="07e837da-6a90-421b-8a93-182488a0ac39">
+      <Value Key="Description" Value="" Type="String" />
+      <Value Key="Name" Value="StreamPick" Type="String" />
+      <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.StreamPick, ToSic.Eav.DataSources" Type="String" />
+      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 169,&#xD;&#xA;  &quot;Left&quot;: 432&#xD;&#xA;}" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="67b19864-df6d-400b-9f37-f41f1dd69c4a" AttributeSetName="|Config ToSic.Eav.DataSources.StreamPick" EntityGUID="e037343c-7347-421d-a602-adde2a55ee77" KeyGuid="0330b4c2-373f-4041-b9b3-fed1c55a194c">
+      <Value Key="StreamName" Value="[Params:StreamName]" Type="String" />
     </Entity>
   </Entities>
   <PortalFiles />
